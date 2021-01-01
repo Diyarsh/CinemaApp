@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane style="-fx-background-color: #0F4DA8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.address.view.PrintTicketDialogWindowController">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="178.0" prefWidth="441.0" style="-fx-background-color: #0F4DA8;">
+         <children>
+            <Label layoutX="31.0" layoutY="28.0" prefHeight="44.0" prefWidth="85.0" text="Movie:" textFill="#ffffffce">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="titleLabel" layoutX="119.0" layoutY="29.0" prefHeight="44.0" prefWidth="296.0" text="title" textFill="#fffa00de">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="78.0" prefHeight="44.0" prefWidth="85.0" text="Seat:" textFill="#ffffffce">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="seatNumber" layoutX="119.0" layoutY="79.0" prefHeight="44.0" prefWidth="296.0" text="number" textFill="#fffa00cf">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="31.0" layoutY="125.0" prefHeight="44.0" prefWidth="85.0" text="Time:" textFill="#ffffffce">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeLabel" layoutX="119.0" layoutY="126.0" prefHeight="44.0" prefWidth="296.0" text="title" textFill="#fffa00cf">
+               <font>
+                  <Font name="Consolas" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:constant="CLOSE" />
+   </buttonTypes>
+</DialogPane>
